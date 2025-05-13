@@ -1,0 +1,23 @@
+.headline{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.item{
+  background-color: rgb(192, 198, 255);
+  flex:none;
+  width: 280px;
+  margin: 10px;
+}
+@media only screen and (max-width: 1250px) {
+    .list{
+        flex-wrap:wrap;
+        }
+        .item{
+            width: 45%;
+        }
+    }

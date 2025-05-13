@@ -1,0 +1,27 @@
+.headline{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.menu {
+    text-align: center;
+    margin: 20px 0;
+}
+.desktop-menu{
+    text-align: center;
+    display:block;
+}
+.mobile-menu{
+    text-align: center;
+    display:none;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.item{
+  background-color: rgb(230, 192, 255);
+  flex:none;
+  width: 280px;
+  margin: 10px;
+}
